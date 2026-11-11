@@ -54,21 +54,21 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>khFG0QvG797t4mpA9c+nFpDAexk=10/11/2026 23:06:3410/11/2026 22:41:17</TimeStamp>
+        <TimeStamp>y2r2bYFZInrOqfSK/MMBqYcieIg=11/11/2026 1:46:0110/11/2026 22:41:17</TimeStamp>
         <ID>
           <String>D SUCURSALES</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>4/0dSYaBWxL8XDOzMNAyeauhJCg=11/11/2026 0:52:3810/11/2026 22:41:17</TimeStamp>
+        <TimeStamp>Z0Zj2ySZ8YYCXneWTGD5wEfKGDQ=11/11/2026 1:50:3210/11/2026 22:41:17</TimeStamp>
         <ID>
           <String>D TIEMPO</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>7a/KOrKqH+JTEz4gzwDKhNIOHj0=11/11/2026 0:54:4710/11/2026 22:41:16fFH8AIkX3/EnRQDGJHGY0IiNaks=10/11/2026 22:41:1710/11/2026 22:41:17</TimeStamp>
+        <TimeStamp>NKDDNyXz33k4nspMBb/ex/Z0Mzo=11/11/2026 1:46:0110/11/2026 22:41:16fFH8AIkX3/EnRQDGJHGY0IiNaks=10/11/2026 22:41:1710/11/2026 22:41:17</TimeStamp>
         <ID>
           <String>Albarran DW</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2026-11-11T03:54:53.586667Z</LastDeployed>
+  <LastDeployed>2026-11-11T04:50:39.773333Z</LastDeployed>
 </DeploymentSnapshot>

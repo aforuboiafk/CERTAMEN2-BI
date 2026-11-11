@@ -41,10 +41,32 @@ La tabla de hechos `H_VENTAS` está conformada por las claves primarias de cada 
 * `descuento` 
 * `monto_total` (Métrica derivada o precálculo almacenado para facilitar el análisis final)
 
+## Proceso ETL - Fase 1
+- **Herramienta:** SQL Server Integration Services (SSIS).
+- **Flujo de Carga:** Extracción desde base transaccional (`Albarran`), transformación de datos (limpieza de inconsistencias y manejo de nulos), búsqueda de llaves subrogadas mediante componentes *Lookup* y carga en el Data Warehouse relacional (`Albarran_DW`).
+- **Integridad:** Mantenimiento de relaciones de clave foránea y control de ejecuciones sin duplicidad.
+
+## Cubo OLAP - Fase 2
+- **Tecnología:** SQL Server Analysis Services (SSAS Multidimensional).
+- **Estructura Analítica:** Importación de la Vista de Origen de Datos (DSV) en esquema estrella desde `Albarran_DW`.
+- **Ajustes Técnicos Realizados:**
+  - **Dimensión Tiempo:** Ajuste de propiedades `KeyColumns` (clave compuesta `Año` + `Mes` + `Día`) y `OrderBy` en `Key` para resolver la duplicidad de días entre meses y garantizar la ordenación cronológica.
+  - **Jerarquías Analíticas:** Implementación de la jerarquía de tiempo `Anio -> Mes -> Dia` para permitir exploración mediante desgloses (*drill-down*). También se hizo lo mismo con `Comuna -> Sucursal` para exploración geográfica.
+  - **Métricas de Negocio:** Creación e integración directa de la medida calculada `[Ticket Promedio]`, garantizando la consistencia matemática al consultar agregaciones superiores.
+
+## Dashboard Power BI - Fase 2
+- **Modo de Conexión:** *Live Connection* (Conexión directa en vivo al Cubo OLAP desplegado en SSAS).
+- **Componentes Visuales:**
+  - Tarjetas de KPI gerenciales (Monto Total, Cantidad Vendida y Ticket Promedio).
+  - Gráficos interactivos de ingresos por sucursal y volumen por categoría.
+  - Segmentadores jerárquico por **Año**, **Mes** y **Día** para filtrado temporal instantáneo.
+- **Ventaja Técnica:** Cero carga de procesamiento local en Power BI; las consultas y agregaciones se resuelven en el motor OLAP de SSAS.
+
 ## Tecnologías utilizadas
-* SQL Server Management Studio (SSMS) 
-* Visual Studio (SSIS)
-* GitHub
+- **SQL Server Management Studio (SSMS):** Motor de base de datos relacional y Data Warehouse.
+- **Visual Studio (SSIS & SSAS):** Desarrollo del paquete ETL y modelado del cubo multidimensional OLAP.
+- **Power BI Desktop:** Diseño del panel de control e integración mediante *Live Connection*.
+- **Git / GitHub:** Control de versiones y alojamiento del proyecto.
 
 ## Estructura del repositorio
 ```
@@ -54,16 +76,22 @@ CERTAMEN2-BI/
 │   └── modelo-dimiensional/
 │       └── modelo_estrella_diagrama.png
 │   └── presentacion/
-│       └── presentación.pptx
+│       └── presentación-fase1.pptx
+│       └── presentación-fase2.pptx
 ├── database/
 │   ├── scripts/
 │   │   └── modelo_dimensional.sql
 │   └── backup/
 │       └── Albarran_DW.bak
 │       └── Albarran.bak
-└── etl/
-    └── proyecto-ssis/
-        └── ETL_Albarran/
+├── etl/
+│   └── proyecto-ssis/
+│       └── ETL_Albarran/
+├── olap/
+│   └── proyecto-ssas/
+├── powerbi/
+    └── powerbi/dashboard.pbix
+
 ```
 
 

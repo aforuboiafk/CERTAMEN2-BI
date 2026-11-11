@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F1B1ED5-0E8A-77EC-0DB7-EFD8982FE812}|proyecto-ssas\\proyecto-ssas.dwproj|C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\Albarran DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{1F1B1ED5-0E8A-77EC-0DB7-EFD8982FE812}|proyecto-ssas\\proyecto-ssas.dwproj|solutionrelative:proyecto-ssas\\Albarran DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F1B1ED5-0E8A-77EC-0DB7-EFD8982FE812}|proyecto-ssas\\proyecto-ssas.dwproj|C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\D TIEMPO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{1F1B1ED5-0E8A-77EC-0DB7-EFD8982FE812}|proyecto-ssas\\proyecto-ssas.dwproj|solutionrelative:proyecto-ssas\\D TIEMPO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1B1ED5-0E8A-77EC-0DB7-EFD8982FE812}|proyecto-ssas\\proyecto-ssas.dwproj|C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\D SUCURSALES.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{1F1B1ED5-0E8A-77EC-0DB7-EFD8982FE812}|proyecto-ssas\\proyecto-ssas.dwproj|solutionrelative:proyecto-ssas\\D SUCURSALES.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1B1ED5-0E8A-77EC-0DB7-EFD8982FE812}|proyecto-ssas\\proyecto-ssas.dwproj|C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\D EMPLEADOS.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{1F1B1ED5-0E8A-77EC-0DB7-EFD8982FE812}|proyecto-ssas\\proyecto-ssas.dwproj|solutionrelative:proyecto-ssas\\D EMPLEADOS.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1B1ED5-0E8A-77EC-0DB7-EFD8982FE812}|proyecto-ssas\\proyecto-ssas.dwproj|C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\D CLIENTES.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{1F1B1ED5-0E8A-77EC-0DB7-EFD8982FE812}|proyecto-ssas\\proyecto-ssas.dwproj|solutionrelative:proyecto-ssas\\D CLIENTES.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1B1ED5-0E8A-77EC-0DB7-EFD8982FE812}|proyecto-ssas\\proyecto-ssas.dwproj|C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\Albarran DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{1F1B1ED5-0E8A-77EC-0DB7-EFD8982FE812}|proyecto-ssas\\proyecto-ssas.dwproj|solutionrelative:proyecto-ssas\\Albarran DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +30,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "D SUCURSALES.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\D SUCURSALES.dim",
+              "RelativeDocumentMoniker": "proyecto-ssas\\D SUCURSALES.dim",
+              "ToolTip": "C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\D SUCURSALES.dim [Dise\u00F1o]",
+              "RelativeToolTip": "proyecto-ssas\\D SUCURSALES.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-11T04:41:40.497Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "D CLIENTES.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\D CLIENTES.dim",
+              "RelativeDocumentMoniker": "proyecto-ssas\\D CLIENTES.dim",
+              "ToolTip": "C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\D CLIENTES.dim [Dise\u00F1o]",
+              "RelativeToolTip": "proyecto-ssas\\D CLIENTES.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-11T04:45:17.654Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "D EMPLEADOS.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\D EMPLEADOS.dim",
+              "RelativeDocumentMoniker": "proyecto-ssas\\D EMPLEADOS.dim",
+              "ToolTip": "C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\D EMPLEADOS.dim [Dise\u00F1o]",
+              "RelativeToolTip": "proyecto-ssas\\D EMPLEADOS.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-11T04:45:14.079Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "D TIEMPO.dim [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\D TIEMPO.dim",
               "RelativeDocumentMoniker": "proyecto-ssas\\D TIEMPO.dim",
@@ -34,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Albarran DW.cube [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\yaman\\Desktop\\CERTAMEN2-BI\\olap\\proyecto-ssas\\proyecto-ssas\\Albarran DW.cube",
               "RelativeDocumentMoniker": "proyecto-ssas\\Albarran DW.cube",
