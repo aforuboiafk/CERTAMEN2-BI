@@ -100,6 +100,8 @@ CERTAMEN2-BI/
 1. Restaurar el archivo `.bak` incluido en la carpeta `database/backup/`.
 2. Ejecutar el script de creación del modelo dimensional ubicado en `database/scripts/`.
 3. Abrir la solución `.sln` en Visual Studio y ejecutar el paquete `Package.dtsx` para iniciar la carga ETL.
+4. Abrir la solución de Analysis Services en Visual Studio (`olap/proyecto-ssas/`), configurar el servidor de destino, realizar el despliegue  y procesar completamente.
+5. Abrir el archivo `dashboard.pbix` en Power BI Desktop, asegurando que la conexión en vivo (*Live Connection*) apunte correctamente al servidor SSAS local desplegado.
 
 ## Distribución de responsabilidades y aportes
 * **Yamandú Lettieri:** Todo :)))
